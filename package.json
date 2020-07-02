@@ -1,0 +1,55 @@
+{
+  "name": "expense-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.4.1",
+    "firebase": "^7.14.0",
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.4.1",
+    "react": "^16.13.0",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "uuid": "^7.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron-only": "set ELECTRON_START_URL=http://localhost:3000 && electron .",
+    "electron-dev": "nf start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "************* TO RUN THIS PROJECT LOCALLY:   - Make a new local directory on your machine called expense-app   - Clone this repo into your new directory (ie so you have all these files inside expense-app)   - cd into your newly created directory (ie 'cd expense-app')   - In this directory, run 'npm install' which will install the missing node_modules for this project   - Run 'npm start' to run the project and view the web app   - Experiment with how react works by looking at the files inside the 'src' folder",
+  "_main": "index.js",
+  "main": "src/electron-starter.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-react-html-attrs": "^2.1.0",
+    "electron": "^8.1.1",
+    "foreman": "^3.0.1"
+  },
+  "homepage": "./"
+}
